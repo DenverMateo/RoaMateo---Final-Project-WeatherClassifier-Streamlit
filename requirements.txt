@@ -2,4 +2,4 @@ tensorflow
 streamlit
 cv2
 numpy
-PIL
+
