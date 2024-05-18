@@ -7,9 +7,9 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Weather Classifiier App - Created By Roa and Mateo"""
+# Weather Classifier App - Created By Roa and Mateo"""
 )
-file=st.file_uploader("Choose weather photo from computer",type=["jpg","png"])
+file=st.file_uploader("Choose weather photo from computer",type=["jpg","png","jpeg"])
 
 import cv2
 from PIL import Image,ImageOps
